@@ -1,4 +1,10 @@
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent / ".env")
+
 # TCP cho RTSP: tranh mat goi UDP gay vo hinh/nhay frame. Phai dat truoc khi import cv2.
 os.environ.setdefault("OPENCV_FFMPEG_CAPTURE_OPTIONS", "rtsp_transport;tcp")
 
@@ -9,7 +15,6 @@ import time
 import unicodedata
 from collections import Counter, defaultdict
 from datetime import datetime
-from pathlib import Path
 from threading import Lock, Thread
 from urllib.parse import quote
 
