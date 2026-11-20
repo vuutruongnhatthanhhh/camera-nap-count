@@ -1,0 +1,74 @@
+# HƯỚNG DẪN SỬ DỤNG PHẦN MỀM ĐẾM ỐC VÍT
+
+## 1. Giới thiệu
+
+Phần mềm sử dụng camera và mô hình AI để nhận diện, phân loại và đếm các chi tiết:
+- Đai ốc (`nut`)
+- Vít/đinh (`screw`)
+- Long đền (`washer`)
+
+Người dùng thao tác trực tiếp trên giao diện web, không cần sử dụng các lệnh lập trình trong quá trình đếm.
+
+## 2. Khởi động phần mềm
+
+1. Bật máy tính và camera.
+2. Mở phần mềm theo hướng dẫn của bộ phận kỹ thuật.
+3. Truy cập giao diện phần mềm tại địa chỉ được cung cấp.
+4. Chọn **Kết nối camera** và chờ hình ảnh camera hiển thị.
+
+> Nếu không thấy hình ảnh, hãy kiểm tra camera, dây mạng và thông báo kết nối trên màn hình. Nếu vẫn không khắc phục được, liên hệ người phụ trách kỹ thuật.
+
+## 3. Thực hiện đếm
+
+1. Đặt các chi tiết vào khu vực quan sát của camera.
+2. Kiểm tra hình ảnh hiển thị rõ, không bị che khuất hoặc nằm ngoài vùng nhận diện.
+3. Chọn **Bắt đầu đếm**.
+4. Phần mềm đếm ngược 3 giây, sau đó tự động lấy 5 khung hình để nhận diện và tổng hợp kết quả.
+5. Chờ phần mềm xử lý và xem kết quả hiển thị trên màn hình.
+
+## 4. Đọc kết quả nhận diện
+
+Phần mềm hiển thị số lượng theo từng nhóm chi tiết và tổng số lượng.
+
+- **Khung màu xanh:** đối tượng đã được phần mềm xác nhận.
+- **Khung màu cam có ký hiệu `?1`, `?2`:** đối tượng chưa chắc chắn, cần người dùng kiểm tra lại.
+- **Tổng số lượng:** xem kèm các đối tượng đang chờ xác minh để tránh nhầm lẫn.
+
+Nếu thấy phần mềm đếm thiếu, đếm thừa hoặc phân loại chưa đúng, hãy kiểm tra trực tiếp các chi tiết và thông báo cho người phụ trách.
+
+## 5. Lưu hình ảnh kiểm tra
+
+Khi cần lưu lại kết quả hoặc trường hợp nhận diện chưa chính xác:
+
+1. Chọn chức năng lưu hình ảnh trên giao diện.
+2. Với trường hợp cần kiểm tra lại, sử dụng chức năng lưu ảnh đánh giá nếu có.
+3. Thông báo cho người phụ trách kỹ thuật để kiểm tra và cải thiện hệ thống.
+
+## 6. Kết thúc sử dụng
+
+1. Hoàn tất việc đếm và lưu lại hình ảnh cần thiết.
+2. Chọn **Dừng camera**.
+3. Đóng trang giao diện và tắt phần mềm theo hướng dẫn của bộ phận kỹ thuật.
+
+## 7. Lưu ý để có kết quả chính xác
+
+- Đặt camera cố định, không tự ý thay đổi góc hoặc khoảng cách.
+- Bố trí ánh sáng ổn định, tránh ánh sáng phản chiếu trực tiếp vào chi tiết.
+- Hạn chế để các chi tiết chồng lấp hoặc che khuất nhau.
+- Đặt toàn bộ chi tiết trong vùng camera quan sát.
+- Kiểm tra các khung màu cam trước khi xác nhận số lượng.
+- Không di chuyển camera hoặc vật đặt camera trong lúc phần mềm đang đếm.
+
+## 8. Khi gặp sự cố
+
+| Hiện tượng | Cách xử lý |
+|---|---|
+| Không hiển thị hình ảnh camera | Kiểm tra nguồn camera, kết nối mạng và thử kết nối lại |
+| Không bắt đầu đếm được | Kiểm tra camera đã kết nối thành công chưa |
+| Kết quả đếm thiếu hoặc thừa | Kiểm tra chi tiết bị chồng lấp, nằm ngoài vùng quan sát hoặc bị che khuất |
+| Nhận diện sai loại chi tiết | Kiểm tra đối tượng được đánh dấu và lưu ảnh để báo kỹ thuật |
+| Phần mềm không phản hồi | Thông báo người phụ trách kỹ thuật, không tự ý thay đổi cài đặt |
+
+---
+
+**Lưu ý:** Tài liệu này dành cho người vận hành phần mềm. Các thao tác cài đặt, cấu hình camera, cập nhật mô hình AI và xử lý lỗi kỹ thuật do người phụ trách kỹ thuật thực hiện.

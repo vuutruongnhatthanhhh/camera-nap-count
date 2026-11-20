@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Anh cu tu ban truoc khi bo tinh nang luu dia - khong con duoc code dung toi nua
+static/saved_images/
+
+# Ban backup cu cua chinh project nay, khong can thiet voi git da co history
+demlinhkien.zip
+
+.env
+.env.*
+!.env.example
